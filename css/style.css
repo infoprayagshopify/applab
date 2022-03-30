@@ -577,8 +577,33 @@
 	.ultimate-section .section-title, 
 	.ultimate-inner-text .row > div:nth-child(1), 
 	.ultimate-inner-text .row > div:nth-child(2),
-	.charges-section {
+	.charges-section, 
+	.jackpot-inner-box, 
+	.why-box .row > div, 
+	.features-inner-box > div, 
+	.ultimate-inner-text .col-md-6 {
 		padding-bottom: 20px;
+		text-align: center;
+	}
+	.ultimate-inner-text .btn {
+		margin-left: auto !important;
+	    margin-right: auto !important;
+	    display: block;
+	}
+	.review-slider {
+		margin-top: 20px;
+	}
+	.features-inner-text {
+		text-align: center;
+	}
+	.jackpot-section {
+		text-align: center;
+	}
+	.design-section .col-md-6 {
+		text-align: center;
+	}
+	.jackpot-section h2:after {
+		width: 0;
 	}
 	.ultimate-inner-text h3 {
 		margin: 20px 0;
@@ -610,10 +635,6 @@
 	}
 	.site-footer .app-box {
 		padding-bottom: 40px;
-	}
-	.why-box .row > div, 
-	.features-inner-box > div {
-		padding-bottom: 25px;
 	}
 	.design-section img {
 		margin-bottom: 20px;
